@@ -1,0 +1,71 @@
+/* Yape checkout — modern payment card */
+.edroz-payment-box{margin:12px 0;font-size:15px}.edroz-card{position:relative;overflow:hidden;border:1px solid rgba(20,24,40,.10);border-radius:20px;padding:18px;background:linear-gradient(145deg,#fff 0%,#f8f9fc 100%);box-shadow:0 12px 32px rgba(20,24,40,.08)}.edroz-card:before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:linear-gradient(90deg,#7c3aed,#06b6d4)}.edroz-amount{display:flex;align-items:center;gap:14px;margin:0 0 15px;padding:15px 17px;border:1px solid rgba(16,185,129,.22);border-radius:16px;background:linear-gradient(135deg,rgba(16,185,129,.10),rgba(59,130,246,.07));}.edroz-amount-icon{width:38px;height:38px;display:grid;place-items:center;flex:0 0 38px;border-radius:50%;background:#111827;color:#fff;font-weight:800;font-size:18px;box-shadow:0 5px 14px rgba(17,24,39,.18)}.edroz-amount-copy{display:flex;flex-direction:column;gap:2px;min-width:0}.edroz-amount-label{text-transform:uppercase;letter-spacing:.07em;font-size:11px;font-weight:800;opacity:.68}.edroz-amount-value{font-size:30px;line-height:1.1;font-weight:900;letter-spacing:-.03em}.edroz-amount-value .woocommerce-Price-currencySymbol{font-size:.62em;margin-right:3px}.edroz-amount-copy small{font-size:12px;line-height:1.4;opacity:.72}.edroz-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 16px}.edroz-steps>div{display:flex;align-items:center;gap:7px;padding:9px 10px;border-radius:12px;background:#fff;border:1px solid rgba(20,24,40,.07)}.edroz-steps span{display:grid;place-items:center;width:24px;height:24px;flex:0 0 24px;border-radius:50%;background:#111827;color:#fff;font-size:12px;font-weight:800}.edroz-steps strong{font-size:12px;line-height:1.2}.edroz-card-main{display:flex;gap:18px;align-items:center}.edroz-qr-wrap{display:flex;justify-content:center;align-items:center;flex:0 0 auto;padding:9px;border-radius:16px;background:#fff;border:1px solid rgba(20,24,40,.08);box-shadow:0 8px 22px rgba(20,24,40,.07)}.edroz-qr-wrap img{display:block;width:180px;height:180px;object-fit:contain;border-radius:9px}.edroz-data{flex:1;min-width:0}.edroz-data>div{margin:8px 0}.edroz-data strong{display:inline-block;min-width:130px}.edroz-badge{display:inline-flex;align-items:center;padding:5px 9px;border-radius:999px;background:#111827;color:#fff;font-weight:800;font-size:12px;margin-bottom:5px}.edroz-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.edroz-actions button,.edroz-actions a{padding:9px 13px;border:1px solid rgba(20,24,40,.12);border-radius:10px;text-decoration:none;cursor:pointer;background:#fff;font-weight:700;transition:transform .15s ease,box-shadow .15s ease}.edroz-actions button:hover,.edroz-actions a:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(20,24,40,.08)}.edroz-operation-field{margin-top:16px;padding-top:15px;border-top:1px dashed rgba(20,24,40,.12)}.edroz-operation-field label{display:block;font-weight:800;margin-bottom:6px}.edroz-operation-field input{width:100%;max-width:420px;min-height:44px;border-radius:10px}.edroz-operation-field small{display:block;margin-top:6px;opacity:.68}.edroz-tip{margin-top:14px;padding:10px 12px;border-radius:10px;background:rgba(59,130,246,.06);font-size:12px;line-height:1.45}.edroz-thankyou-instructions{margin:15px 0}.edroz-block-payment{width:90%;margin:auto}.edroz-block-payment .edroz-qr-wrap{width:max-content;margin:0 auto 15px}.edroz-block-payment .edroz-data{margin-bottom:10px}.edroz-block-payment .edroz-actions{margin-bottom:4px}@media(max-width:700px){.edroz-card{padding:14px;border-radius:16px}.edroz-card-main{flex-direction:column;align-items:stretch}.edroz-qr-wrap{align-self:center}.edroz-qr-wrap img{width:170px;height:170px}.edroz-steps{grid-template-columns:1fr}.edroz-steps>div{justify-content:flex-start}.edroz-amount-value{font-size:27px}.edroz-data strong{min-width:105px}}
+/* 7.0.13: use the block width directly; no WooCommerce padding overrides */
+.edroz-payment-box{padding:0 8px}
+.edroz-card{margin:10px 6px 14px;padding:24px 22px}
+.edroz-card-main{flex-direction:column;gap:16px;align-items:center;padding:12px 14px 20px}
+.edroz-qr-wrap{margin:0 auto;padding:10px}
+.edroz-data{width:100%;max-width:360px;min-width:0;margin:0 auto;padding:10px 14px 4px;text-align:center}
+.edroz-data-grid{display:flex;flex-direction:column;gap:8px;margin:12px 0 14px}
+.edroz-data-grid>div{display:flex;flex-direction:column;align-items:center;gap:2px}
+.edroz-actions{justify-content:center}
+.edroz-operation-field{margin:18px 4px 0;padding:18px 4px 0}
+.edroz-tip{margin:14px 4px 0}
+@media(max-width:700px){.edroz-payment-box{padding:0 4px}.edroz-card{margin:8px 2px 12px;padding:18px 14px}.edroz-card-main{padding-left:4px;padding-right:4px}.edroz-data{padding-left:8px;padding-right:8px}}
+
+/* Payment method icons in WooCommerce Checkout Blocks */
+.edroz-payment-label{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;}
+.edroz-payment-label-text{display:inline-flex;align-items:center;min-width:0;}
+.edroz-payment-label-icon{display:block;width:54px;height:auto;max-height:24px;object-fit:contain;margin-left:auto;flex:0 0 auto;}
+
+
+/* 7.2.5 Test 2: compact checkout layout for narrow Elementor columns */
+.woocommerce-checkout #payment .payment_methods li.payment_method_yapepay > label img,
+.woocommerce-checkout #payment .payment_methods li.payment_method_yapepay label img,
+.wc-block-checkout .wc-block-components-radio-control__label img {
+    width: 46px !important;
+    max-width: 46px !important;
+    height: auto !important;
+    max-height: 26px !important;
+    object-fit: contain !important;
+    vertical-align: middle;
+}
+.edroz-payment-box { width:100%; max-width:100%; min-width:0; box-sizing:border-box; padding:0 !important; margin:10px 0 !important; }
+.edroz-payment-box .edroz-card {
+    width:100%; max-width:100%; box-sizing:border-box;
+    margin:8px 0 12px !important; padding:14px !important;
+    border-radius:14px !important; box-shadow:0 5px 18px rgba(20,24,40,.07) !important;
+}
+.edroz-payment-box .edroz-amount { gap:10px; padding:10px 12px; margin-bottom:10px; border-radius:12px; }
+.edroz-payment-box .edroz-amount-icon { width:32px; height:32px; flex-basis:32px; font-size:16px; }
+.edroz-payment-box .edroz-amount-label { font-size:9px; }
+.edroz-payment-box .edroz-amount-value { font-size:23px; }
+.edroz-payment-box .edroz-amount-copy small { font-size:10px; }
+.edroz-payment-box .edroz-steps { gap:5px; margin-bottom:10px; }
+.edroz-payment-box .edroz-steps>div { gap:5px; padding:7px 6px; border-radius:9px; }
+.edroz-payment-box .edroz-steps span { width:20px; height:20px; flex-basis:20px; font-size:10px; }
+.edroz-payment-box .edroz-steps strong { font-size:10px; }
+.edroz-payment-box .edroz-card-main { display:flex; flex-direction:column; align-items:center; gap:10px; padding:6px 0 10px; }
+.edroz-payment-box .edroz-qr-wrap { padding:7px; border-radius:12px; margin:0 auto; }
+.edroz-payment-box .edroz-qr-wrap img { width:124px !important; height:124px !important; max-width:100%; }
+.edroz-payment-box .edroz-data { width:100%; max-width:100%; padding:4px 2px; margin:0; text-align:center; }
+.edroz-payment-box .edroz-data-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 5px; margin:8px 0 10px; }
+.edroz-payment-box .edroz-data-grid>div { display:flex; flex-direction:column; align-items:center; gap:2px; min-width:0; margin:0; overflow-wrap:anywhere; }
+.edroz-payment-box .edroz-data strong { min-width:0; font-size:10px; }
+.edroz-payment-box .edroz-data-grid span { font-size:11px; }
+.edroz-payment-box .edroz-badge { font-size:10px; padding:4px 8px; margin-bottom:2px; }
+.edroz-payment-box .edroz-actions { justify-content:center; gap:6px; margin-top:8px; }
+.edroz-payment-box .edroz-actions button,
+.edroz-payment-box .edroz-actions a { padding:7px 9px; font-size:10px; }
+.edroz-payment-box .edroz-tip { margin:8px 0 0; padding:8px 9px; font-size:10px; }
+.edroz-payment-box .edroz-operation-field { margin:12px 0 0; padding:12px 0 0; }
+.edroz-payment-box .edroz-operation-field label { font-size:11px; }
+.edroz-payment-box .edroz-operation-field input { width:100%; max-width:100%; min-height:38px; box-sizing:border-box; }
+.edroz-payment-box .edroz-operation-field small { font-size:10px; }
+@media(max-width:480px) {
+ .edroz-payment-box .edroz-steps { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .edroz-payment-box .edroz-steps>div { justify-content:center; }
+ .edroz-payment-box .edroz-steps strong { font-size:9px; }
+}
+
+.edroz-yape-timer{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:18px 0;padding:14px 16px;border:1px solid #e7dcfa;border-radius:12px;background:#faf7ff;color:#3d2860}.edroz-yape-timer strong{font-size:13px}.edroz-yape-timer-value{padding:5px 9px;border-radius:7px;background:#7024c9;color:#fff;font-size:17px;font-weight:800;font-variant-numeric:tabular-nums}.edroz-yape-timer small{display:block;flex-basis:100%;color:#76688a;font-size:11px}.edroz-yape-timer.is-expired .edroz-yape-timer-value{background:#a96c0d}

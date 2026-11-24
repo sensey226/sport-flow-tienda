@@ -1,0 +1,1 @@
+jQuery(function($){$(document).on('click','.edroz-copy',function(){var b=$(this),t=b.data('copy');if(navigator.clipboard){navigator.clipboard.writeText(t).then(function(){var old=b.text();b.text((window.EdrozYapePlin&&EdrozYapePlin.copied)||'¡Copiado!');setTimeout(function(){b.text(old)},1500);});}});});
