@@ -1,0 +1,725 @@
+  /*--- slider control ----*/
+ .slider-custom-control input[type=number]::-webkit-inner-spin-button,
+ .slider-custom-control input[type=number]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+ .slider-custom-control input[type=number] {
+     -moz-appearance: textfield;
+ }
+
+ .slider-custom-control input[type=number] {
+     width: 50px;
+     border-radius: 2px;
+     margin-left: 5px;
+ }
+
+ .slider-custom-control .slider {
+     width: 58%;
+     float: left;
+     margin: 15px 0 12px;
+ }
+
+ .slider-custom-control .slider-reset,
+ .reset-button {
+     cursor: pointer;
+     margin-left: 5px;
+     padding: 5px 8px;
+     display: inline-block;
+     color: #0073aa;
+     border: 1px solid #0073aa;
+     font-size: 11px;
+     border-radius: 2px;
+ }
+
+ .slider-custom-control .slider-value {
+     border: none;
+     text-align: right;
+     width: 50px;
+     margin-right: 5px;
+ }
+
+ .slider-custom-control .slider-value,
+ .slider-custom-control .slider-unit {
+     float: right;
+ }
+
+ .slider-custom-control .ui-widget.ui-widget-content {
+     background: #ccc;
+ }
+
+ .slider-custom-control .ui-widget-content {
+     background: #f4f4f4 none repeat scroll 0 0;
+     color: #333;
+ }
+
+ .slider-custom-control .ui-slider-horizontal {
+     height: 3px;
+ }
+
+ .slider-custom-control .ui-slider {
+     position: relative;
+     text-align: left;
+ }
+
+ .slider-custom-control .ui-state-default,
+ .slider-custom-control .ui-widget-content .ui-state-default,
+ .slider-custom-control .ui-widget-header .ui-state-default,
+ .slider-custom-control .ui-button,
+ .slider-custom-control .ui-button.ui-state-disabled:hover,
+ .slider-custom-control .ui-button.ui-state-disabled:active {
+     background: #fff none repeat scroll 0 0;
+     border: 1px solid #aaa;
+     font-weight: normal;
+ }
+
+ .slider-custom-control .ui-slider-horizontal .ui-slider-handle {
+     margin-left: -7px;
+     top: -8px;
+     border-radius: 50%;
+ }
+
+ .slider-custom-control .ui-slider .ui-slider-handle {
+     cursor: pointer;
+     height: 17px;
+     position: absolute;
+     width: 17px;
+     z-index: 2;
+ }
+
+ .slider-custom-control .dashicons-image-rotate {
+     margin-top: 10px;
+     color: #d4d4d4;
+     size: 16px;
+ }
+
+ .slider-custom-control .dashicons-image-rotate:hover {
+     color: #a7a7a7;
+ }
+
+ .customize-reset-title {
+     font-size: 14px;
+     line-height: 1.75;
+     font-weight: 600;
+ }
+
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 99;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ /* Modal Content */
+ .modal-content {
+     background-color: #fefefe;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 25%;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .modal-content p {
+     font-size: 18px;
+     margin: 25px 0 16px;
+ }
+
+ .modal-content .refresh-btn {
+     font-size: 15px;
+     background: #2271b1;
+     padding: 8px 15px;
+     border-radius: 4px;
+     color: #fff;
+     text-decoration: none;
+     font-weight: 600;
+     display: inline-block;
+ }
+
+ .close {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ /*---- Toggle button -----*/
+ .toggle-switch-control .customize-control-title {
+     display: inline-block;
+ }
+
+ .toggle-switch {
+     position: relative;
+     width: 50px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     float: right;
+ }
+
+ .toggle-switch .toggle-switch-checkbox {
+     display: none;
+ }
+
+ .toggle-switch .toggle-switch-label {
+     display: block;
+     overflow: hidden;
+     cursor: pointer;
+     padding: 0;
+     margin: 0;
+     height: 18px;
+ }
+
+ .toggle-switch-inner {
+     display: block;
+     width: 200%;
+     margin-left: -100%;
+     transition: margin 0.3s ease-in 0s;
+ }
+
+ .toggle-switch-inner:before,
+ .toggle-switch-inner:after {
+     display: block;
+     float: left;
+     width: 50%;
+     height: 22px;
+     padding: 0;
+     line-height: 2;
+     font-size: 10px;
+     color: #fff;
+     font-weight: bold;
+     box-sizing: border-box;
+ }
+
+ .toggle-switch-inner:before {
+     content: "ON";
+     padding-left: 5px;
+     background-color: #000;
+     color: #fff;
+ }
+
+ .toggle-switch-inner:after {
+     content: "OFF";
+     padding-right: 5px;
+     background-color: #eee;
+     color: #000;
+     text-align: right;
+ }
+
+ .toggle-switch-btn {
+     display: block;
+     width: 16px;
+     margin: 3px;
+     background: #000;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 28px;
+     transition: all 0.3s ease-in 0s;
+ }
+
+ .toggle-switch-checkbox:checked+.toggle-switch-label .toggle-switch-inner {
+     margin-left: 0;
+ }
+
+ .toggle-switch-checkbox:checked+.toggle-switch-label .toggle-switch-btn {
+     right: 0px;
+     background: #fff;
+ }
+
+ /* // customizer colors styles */
+ .customize-control-color .customize-control-title {
+     display: inline-block;
+ }
+
+ .customize-control-checkbox input,
+ .customize-control-nav_menu_auto_add input,
+ .customize-control-radio input {
+     margin-top: 7px;
+ }
+
+ span.wp-color-result-text {
+     display: none;
+ }
+
+ .customize-control-color {
+     position: relative;
+ }
+
+ .wp-picker-container {
+     display: block;
+ }
+
+ span.customize-control-title {
+     width: 72%;
+ }
+
+ button.button.wp-color-result {
+     position: absolute;
+     right: 0;
+     top: 0;
+     margin-right: 0;
+     border-radius: 37px;
+     min-height: 26px !important;
+     margin: 15px 18px 6px 0 !important;
+     padding: 0 0 0 44px !important;
+ }
+
+ .customize-control-switch span.customize-control-title {
+     display: inline-block;
+ }
+
+ .customize-control-switch .onoffswitch {
+     position: relative;
+     width: 65px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     float: right;
+     margin: 0;
+ }
+
+ .customize-control-checkbox label {
+     margin-left: 0;
+     padding-top: 0;
+     padding-bottom: 0;
+     line-height: 28px;
+ }
+
+ .onoffswitch_label {
+     display: inline-block;
+     vertical-align: top;
+     margin-top: -1px;
+     width: 200px;
+ }
+
+ .onoffswitch {
+     position: relative;
+     width: 40px;
+     display: inline-block;
+     float: right;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+ }
+
+ .onoffswitch-checkbox {
+     display: none !important;
+ }
+
+ .onoffswitch-label {
+     display: block;
+     overflow: hidden;
+     cursor: pointer;
+     height: 16px;
+     padding: 0;
+     line-height: 18px;
+     border: 2px solid #9E9E9E;
+     border-radius: 0px;
+     transition: 0.2s ease-in-out;
+     background-color: #9E9E9E;
+ }
+
+ .onoffswitch-label:before {
+     content: "";
+     display: block;
+     width: 18px;
+     margin: 0;
+     background: #fff;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 20px;
+     border: 2px solid #9E9E9E;
+     border-radius: 20px;
+     transition: all 0.2s ease-in 0s;
+ }
+
+ .onoffswitch-checkbox:checked+.onoffswitch-label {
+     background-color: #3f536d;
+ }
+
+ .onoffswitch-checkbox:checked+.onoffswitch-label,
+ .onoffswitch-checkbox:checked+.onoffswitch-label:before {
+     border-color: #3f536d;
+ }
+
+ .onoffswitch-checkbox:checked+.onoffswitch-label:before {
+     right: 0;
+ }
+
+ /*------Add 2 color button option--------*/
+ #customize-control-baseball_sports_club_contact_subheading_color2 button.button.wp-color-result,
+ #customize-control-baseball_sports_club_services_overlay_color2 button.button.wp-color-result,
+ #customize-control-theme_options-slider_section_bg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-featured_projects_section_overlybg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-projects_innerbox_bg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-team_imgbg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-posts_datebg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-bloginnpage_datebg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-featured_whatweoffer_section_overlybg_color2 button.button.wp-color-result,
+ #customize-control-theme_options-testimonials_overlay_color2 button.button.wp-color-result,
+ #customize-control-theme_options-featured_posts_section_overly_color2 button.button.wp-color-result {
+     position: absolute;
+     right: 65px;
+     top: -73px !important;
+ }
+
+ #customize-control-theme_options-bloginnpage_datebg_color2 .customize-control {
+     padding: 0;
+ }
+
+ #customize-control-baseball_sports_club_contact_subheading_color2,
+ #customize-control-baseball_sports_club_services_overlay_color2,
+ #customize-control-theme_options-slider_section_bg_color2,
+ #customize-control-theme_options-projects_section_overlybg_color2,
+ #customize-control-theme_options-projects_innerbox_bg_color2 {
+     position: relative;
+     top: 0px;
+     margin: -30px 0;
+     z-index: 1;
+     background: none;
+     box-shadow: none;
+ }
+
+ li#customize-control-baseball_sports_club_contact_subheading_color2 span.customize-control-title,
+ li#customize-control-baseball_sports_club_services_overlay_color2 span.customize-control-title,
+ li#customize-control-theme_options-slider_section_bg_color2 span.customize-control-title,
+ li#customize-control-theme_options-featured_projects_section_overlybg_color2 span.customize-control-title,
+ li#customize-control-theme_options-projects_innerbox_bg_color2 span.customize-control-title,
+ li#customize-control-theme_options-team_imgbg_color2 span.customize-control-title,
+ li#customize-control-theme_options-posts_datebg_color2 span.customize-control-title,
+ li#customize-control-theme_options-bloginnpage_datebg_color2 span.customize-control-title,
+ li#customize-control-theme_options-featured_whatweoffer_section_overlybg_color2 .customize-control-title,
+ li#customize-control-theme_options-testimonials_overlay_color2 .customize-control-title,
+ li#customize-control-theme_options-featured_posts_section_overly_color2 .customize-control-title {
+     display: none;
+ }
+
+
+ /*----------## Separator Start ##---------*/
+ li #_customize-input-_footer_separator1,
+ li #_customize-input-baseball_sports_club_footer_separator2,
+ li #_customize-input-baseball_sports_club_footer_separator3,
+ li #_customize-input-baseball_sports_club_footer_separator4,
+ li #_customize-input-baseball_sports_club_whatweoffer_padding {
+     display: none;
+ }
+
+ #customize-control-baseball_sports_club_footer_separator1,
+ #customize-control-baseball_sports_club_footer_separator2,
+ #customize-control-baseball_sports_club_footer_separator3,
+ #customize-control-baseball_sports_club_footer_separator4 {
+     padding: 10px 15px;
+     background: #3f536d;
+     color: #fff;
+ }
+
+ #customize-control-baseball_sports_club_whatweoffer_padding {
+     padding: 10px 15px;
+ }
+
+ #customize-control-baseball_sports_club_footer_separator1 label,
+ #customize-control-baseball_sports_club_footer_separator2 label,
+ #customize-control-baseball_sports_club_footer_separator3 label,
+ #customize-control-baseball_sports_club_footer_separator4 label {
+     margin: 0;
+ }
+
+ /*------Add padding css option--------*/
+ li#customize-control-baseball_sports_club_logo_top_margin,
+ li#customize-control-baseball_sports_club_logo_bottom_margin,
+ li#customize-control-baseball_sports_club_logo_left_margin,
+ li#customize-control-baseball_sports_club_logo_right_margin,
+ li#customize-control-baseball_sports_club_featured_slider_t_padding,
+ li#customize-control-baseball_sports_club_featured_slider_b_padding,
+ li#customize-control-baseball_sports_club_featured_features_t_padding,
+ li#customize-control-baseball_sports_club_featured_features_b_padding,
+ li#customize-control-baseball_sports_club_featured_about_t_padding,
+ li#customize-control-baseball_sports_club_featured_about_b_padding,
+ li#customize-control-baseball_sports_club_featured_services_t_padding,
+ li#customize-control-baseball_sports_club_featured_services_b_padding,
+ li#customize-control-baseball_sports_club_featured_video_t_padding,
+ li#customize-control-baseball_sports_club_featured_video_b_padding,
+ li#customize-control-baseball_sports_club_featured_awards_and_achivements_t_padding,
+ li#customize-control-baseball_sports_club_featured_awards_and_achivements_b_padding,
+ li#customize-control-baseball_sports_club_featured_inquiry_t_padding,
+ li#customize-control-baseball_sports_club_featured_inquiry_b_padding,
+ li#customize-control-baseball_sports_club_featured_upcomingevent_t_padding,
+ li#customize-control-baseball_sports_club_featured_upcomingevent_b_padding,
+ li#customize-control-baseball_sports_club_featured_gallery_t_padding,
+ li#customize-control-baseball_sports_club_featured_gallery_b_padding,
+ li#customize-control-baseball_sports_club_featured_testimonials_t_padding,
+ li#customize-control-baseball_sports_club_featured_testimonials_b_padding,
+ li#customize-control-baseball_sports_club_featured_team_t_padding,
+ li#customize-control-baseball_sports_club_featured_team_b_padding,
+ li#customize-control-baseball_sports_club_featured_classes_t_padding,
+ li#customize-control-baseball_sports_club_featured_classes_b_padding,
+ li#customize-control-baseball_sports_club_featured_posts_t_padding,
+ li#customize-control-baseball_sports_club_featured_posts_b_padding,
+ li#customize-control-baseball_sports_club_featured_newsletter_t_padding,
+ li#customize-control-baseball_sports_club_featured_newsletter_b_padding,
+ li#customize-control-baseball_sports_club_footer_t_padding,
+ li#customize-control-baseball_sports_club_footer_b_padding,
+ li#customize-control-baseball_sports_club_featured_whatweoffer_t_padding,
+ li#customize-control-baseball_sports_club_featured_whatweoffer_b_padding,
+ li#customize-control-baseball_sports_club_featured_wedifferent_t_padding,
+ li#customize-control-baseball_sports_club_featured_wedifferent_b_padding,
+ li#customize-control-baseball_sports_club_featured_clients_t_padding,
+ li#customize-control-baseball_sports_club_featured_clients_b_padding,
+ li#customize-control-baseball_sports_club_featured_footer_t_padding,
+ li#customize-control-baseball_sports_club_featured_footer_b_padding,
+ li#customize-control-baseball_sports_club_featured_contact_t_padding,
+ li#customize-control-baseball_sports_club_featured_contact_b_padding,
+ li#customize-control-baseball_sports_club_featured_counters_t_padding,
+ li#customize-control-baseball_sports_club_featured_counters_b_padding,
+ li#customize-control-theme_options-baseball_sports_club_featured_projects_t_padding,
+ li#customize-control-theme_options-baseball_sports_club_featured_projects_b_padding {
+     clear: none;
+     width: 36% !important;
+     margin-top: 10px;
+ }
+
+ li#customize-control-baseball_sports_club_featured_slider_b_padding,
+ li#customize-control-baseball_sports_club_featured_features_b_padding,
+ li#customize-control-baseball_sports_club_featured_about_b_padding,
+ li#customize-control-baseball_sports_club_featured_services_b_padding,
+ li#customize-control-baseball_sports_club_featured_video_b_padding,
+ li#customize-control-baseball_sports_club_featured_awards_and_achivements_b_padding,
+ li#customize-control-baseball_sports_club_featured_inquiry_b_padding,
+ li#customize-control-baseball_sports_club_featured_upcomingevent_b_padding,
+ li#customize-control-baseball_sports_club_featured_gallery_b_padding,
+ li#customize-control-baseball_sports_club_featured_testimonials_b_padding,
+ li#customize-control-baseball_sports_club_featured_team_b_padding,
+ li#customize-control-baseball_sports_club_featured_classes_b_padding,
+ li#customize-control-baseball_sports_club_featured_posts_b_padding,
+ li#customize-control-baseball_sports_club_featured_newsletter_b_padding,
+ li#customize-control-baseball_sports_club_footer_b_padding,
+ li#customize-control-baseball_sports_club_featured_whatweoffer_b_padding,
+ li#customize-control-baseball_sports_club_featured_wedifferent_b_padding,
+ li#customize-control-baseball_sports_club_featured_clients_b_padding,
+ li#customize-control-baseball_sports_club_featured_counters_b_padding {
+     margin-right: 0px !important;
+ }
+
+ input#_customize-input-baseball_sports_club_slider_padding,
+ input#_customize-input-baseball_sports_club_features_padding,
+ input#_customize-input-baseball_sports_club_about_padding,
+ input#_customize-input-baseball_sports_club_services_padding,
+ input#_customize-input-baseball_sports_club_video_padding,
+ input#_customize-input-baseball_sports_club_counters_padding,
+ input#_customize-input-baseball_sports_club_awards_and_achivements_padding,
+ input#_customize-input-baseball_sports_club_inquiry_padding,
+ input#_customize-input-baseball_sports_club_upcomingevent_padding,
+ input#_customize-input-baseball_sports_club_gallery_padding,
+ input#_customize-input-baseball_sports_club_testimonials_padding,
+ input#_customize-input-baseball_sports_club_team_padding,
+ input#_customize-input-baseball_sports_club_classes_padding,
+ input#_customize-input-baseball_sports_club_posts_padding,
+ input#_customize-input-baseball_sports_club_newsletter_padding,
+ input#_customize-input-baseball_sports_club_footer_padding,
+ input#_customize-input-baseball_sports_club_whatweoffer_padding,
+ input#_customize-input-baseball_sports_club_wedifferent_padding,
+ input#_customize-input-baseball_sports_club_clients_padding,
+ input#_customize-input-baseball_sports_club_pricings_padding,
+ input#_customize-input-baseball_sports_club_contact_padding,
+ input#_customize-input-baseball_sports_club_about_leftheading,
+ input#_customize-input-baseball_sports_club_about_numberofplan,
+ input#_customize-input-baseball_sports_club_about_leftimagcolor,
+ input#_customize-input-baseball_sports_club_about_rightbgimages,
+ input#_customize-input-baseball_sports_club_service_leftside,
+ input#_customize-input-baseball_sports_club_projects_left,
+ input#_customize-input-baseball_sports_club_projects_slidermanage,
+ input#_customize-input-baseball_sports_club_project_left,
+ input#_customize-input-baseball_sports_club_projects_padding {
+     display: none !important;
+ }
+
+ #customize-control-baseball_sports_club_about_numberofplan,
+ #customize-control-baseball_sports_club_about_leftheading,
+ #customize-control-baseball_sports_club_about_leftimagcolor,
+ #customize-control-baseball_sports_club_about_rightbgimages,
+ #customize-control-baseball_sports_club_service_leftside,
+ #customize-control-baseball_sports_club_projects_left,
+ #customize-control-baseball_sports_club_projects_slidermanage,
+ #customize-control-baseball_sports_club_project_left {
+     background-color: #f7919130;
+ }
+
+ li#customize-control-baseball_sports_club_logo_margin,
+ li#customize-control-baseball_sports_club_slider_padding,
+ li#customize-control-baseball_sports_club_features_padding,
+ li#customize-control-baseball_sports_club_about_padding,
+ li#customize-control-baseball_sports_club_services_padding,
+ li#customize-control-baseball_sports_club_counters_padding,
+ li#customize-control-baseball_sports_club_video_padding,
+ li#customize-control-baseball_sports_club_inquiry_padding,
+ li#customize-control-baseball_sports_club_awards_and_achivements_padding,
+ li#customize-control-baseball_sports_club_upcomingevent_padding,
+ li#customize-control-baseball_sports_club_gallery_padding,
+ li#customize-control-baseball_sports_club_testimonials_padding,
+ li#customize-control-baseball_sports_club_team_padding,
+ li#customize-control-baseball_sports_club_classes_padding,
+ li#customize-control-baseball_sports_club_posts_padding,
+ li#customize-control-baseball_sports_club_newsletter_padding,
+ li#customize-control-baseball_sports_club_footer_padding,
+ li#customize-control-baseball_sports_club_whatweoffer_padding,
+ li#customize-control-baseball_sports_club_wedifferent_padding,
+ li#customize-control-baseball_sports_club_clients_padding {
+     margin-bottom: 0 !important;
+ }
+
+ #customize-control-baseball_sports_club_logo_top_margin label,
+ #customize-control-baseball_sports_club_logo_bottom_margin label,
+ #customize-control-baseball_sports_club_logo_left_margin label,
+ #customize-control-baseball_sports_club_logo_right_margin label,
+ #customize-control-baseball_sports_club_featured_slider_t_padding label,
+ #customize-control-baseball_sports_club_featured_slider_b_padding label,
+ #customize-control-baseball_sports_club_featured_features_t_padding label,
+ #customize-control-baseball_sports_club_featured_features_b_padding label,
+ #customize-control-baseball_sports_club_featured_about_t_padding label,
+ #customize-control-baseball_sports_club_featured_about_b_padding label,
+ #customize-control-baseball_sports_club_featured_services_t_padding label,
+ #customize-control-baseball_sports_club_featured_services_b_padding label,
+ #customize-control-baseball_sports_club_featured_video_t_padding label,
+ #customize-control-baseball_sports_club_featured_video_b_padding label,
+ #customize-control-baseball_sports_club_featured_awards_and_achivements_t_padding label,
+ #customize-control-baseball_sports_club_featured_awards_and_achivements_b_padding label,
+ #customize-control-baseball_sports_club_featured_inquiry_t_padding label,
+ #customize-control-baseball_sports_club_featured_inquiry_b_padding label,
+ #customize-control-baseball_sports_club_featured_upcomingevent_t_padding label,
+ #customize-control-baseball_sports_club_featured_upcomingevent_b_padding label,
+ #customize-control-baseball_sports_club_featured_gallery_t_padding label,
+ #customize-control-baseball_sports_club_featured_gallery_b_padding label,
+ #customize-control-baseball_sports_club_featured_testimonials_t_padding label,
+ #customize-control-baseball_sports_club_featured_testimonials_b_padding label,
+ #customize-control-baseball_sports_club_featured_team_t_padding label,
+ #customize-control-baseball_sports_club_featured_team_b_padding label,
+ #customize-control-baseball_sports_club_featured_classes_t_padding label,
+ #customize-control-baseball_sports_club_featured_classes_b_padding label,
+ #customize-control-baseball_sports_club_featured_posts_t_padding label,
+ #customize-control-baseball_sports_club_featured_posts_b_padding label,
+ #customize-control-baseball_sports_club_featured_newsletter_t_padding label,
+ #customize-control-baseball_sports_club_featured_newsletter_b_padding label,
+ #customize-control-baseball_sports_club_footer_t_padding label,
+ #customize-control-baseball_sports_club_footer_b_padding label,
+ #customize-control-baseball_sports_club_featured_whatweoffer_t_padding label,
+ #customize-control-baseball_sports_club_featured_whatweoffer_b_padding label,
+ #customize-control-baseball_sports_club_featured_wedifferent_t_padding label,
+ #customize-control-baseball_sports_club_featured_wedifferent_b_padding label,
+ #customize-control-baseball_sports_club_featured_clients_t_padding label,
+ #customize-control-baseball_sports_club_featured_clients_b_padding label,
+ #customize-control-baseball_sports_club_featured_counters_t_padding label,
+ #customize-control-baseball_sports_club_featured_counters_b_padding label {
+
+     font-weight: 600;
+     display: block;
+     font-style: italic;
+     line-height: 1.4;
+     margin-top: 0;
+     margin-bottom: 5px;
+     font-size: 13px;
+ }
+
+ li#customize-control-baseball_sports_club_logo_right_margin {
+     margin: 0;
+ }
+
+ .wp-picker-holder {
+     position: relative;
+     z-index: 2;
+ }
+
+ li#customize-control-display_header_text,
+ #customize-control-theme_options-enable_featured_whatweoffer_section,
+ li#customize-control-baseball_sports_club_featured_slider_img .attachment-media-view {
+     display: none;
+ }
+
+ /* Pro Button */
+ li#accordion-panel-baseball_sports_club_section_pro_panel .accordion-section-title:before,
+ li#accordion-panel-baseball_sports_club_section_pro_panel .accordion-section-title:after {
+     display: none;
+ }
+
+ li#accordion-panel-baseball_sports_club_section_pro_panel .accordion-section-title {
+     position: relative;
+     pointer-events: none;
+     background: #3f536d;
+     color: #fff;
+ }
+
+ #customize-controls .control-section .accordion-section-title:focus,
+ #customize-controls .control-section .accordion-section-title:hover,
+ #customize-controls .control-section.open .accordion-section-title,
+ #customize-controls .control-section:hover>.accordion-section-title {
+     background: #3f536d;
+     color: #fff;
+ }
+
+ #customize-theme-controls .control-section .accordion-section-title:hover:after{
+    color: #fff;
+ }
+
+ li#accordion-panel-baseball_sports_club_section_pro_panel .button.baseball_sports_club-pro-btn {
+     position: absolute;
+     right: 1rem;
+     top: 11.2%;
+     pointer-events: auto;
+     background: #fff;
+     color: #3f536d;
+     box-shadow: none;
+     font-weight: bold;
+     padding: 3px 10px;
+     height: 30px;
+     font-size: 12px !important;
+     border-radius: 5px;
+     border: none;
+     text-transform: uppercase;
+ }
+
+ li#accordion-panel-baseball_sports_club_section_pro_panel .button.baseball_sports_club-pro-btn:hover {
+     background: #000;
+     color: #fff;
+ }
+
+ /* Pro Button */
+
+ li#customize-control-baseball_sports_club_service_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_about_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_counter_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_features_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_steps_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_project_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_aboutus_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_team_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_testimonials_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_pricings_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_contact_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_blog_head_icon_enable span.customize-inside-control-row,
+ li#customize-control-baseball_sports_club_newsletter_head_icon_enable span.customize-inside-control-row {
+     display: inline-block;
+     width: 10%;
+ }
+
+ li#customize-control-baseball_sports_club_about_button_display span.customize-inside-control-row {
+     display: inline-block;
+     width: 35%;
+ }

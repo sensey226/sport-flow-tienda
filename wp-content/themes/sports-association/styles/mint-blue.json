@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Mint Blue",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+			{
+				"slug": "background",
+				"color": "#07dfbc",
+				"name": "Background"
+			},
+			{
+				"slug": "tertiary",
+				"color": "#26726a",
+				"name": "Tertiary"
+			},
+			{
+				"slug": "quaternary",
+				"color": "#004c4780",
+				"name": "Quaternary"
+			},
+			{
+				"slug": "form-bg",
+				"color": "#F9F5F0",
+				"name": "Form Bg"
+			},
+			{
+				"slug": "primary",
+				"color": "#0A0B0F",
+				"name": "Primary"
+			},
+			{
+				"slug": "foreground",
+				"color": "#ffffff",
+				"name": "Foreground"
+			},
+			{
+				"slug": "secondary",
+				"color": "#383838",
+				"name": "Secondary"
+			}
+		]
+    }
+  }
+}

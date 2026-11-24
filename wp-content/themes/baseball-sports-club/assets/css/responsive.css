@@ -1,0 +1,669 @@
+/* ///// MEDIA QUERY CSS START ////// */
+/*/////////////////// media query css for mobile start ////////////////*/
+
+@media (min-width:300px) and (max-width:700px) {
+    #featured-about .youtube {        
+        display: none;        
+    }
+    #featured-about .title-section h1 {
+        font-size: 24px !important;
+        line-height: 20px;
+    }
+    #featured-about {       
+        padding-top: 2em;        
+    }
+    #featured-about .aboutredbox {
+        padding: 10px 0px 0px 11px;
+    }
+    #featured-about .aboutredbox h2 {       
+        font-size: 30px;        
+    }
+
+    .main-navigation ul {
+        display: none;
+        list-style: none;
+    }
+
+    .nav-container {        
+        transform: skewX(0deg);       
+        width: 100%;    
+        padding: 0px;   
+    }
+    .nav-container .header-nav {
+        transform: skewX(0deg);
+        text-align: center;
+    }
+    .sitenave .site-branding p{
+        margin-bottom: 0px;
+    }
+    .menu-menu-1-container {
+        float: none;
+    }
+
+    .main-navigation ul li:hover>ul,
+    .main-navigation ul li.focus>ul {
+        left: 40%;
+    }
+    .btn-img {
+        display: block;
+    }
+
+    #featured-slider .leftcontentbox {
+        top: -17%;
+    }
+    #featured-about .about-img-box .about-title-up {
+        font-size: 75px;
+    }
+    #featured-about .about-img-box .about-title-right {
+        display: none;
+    }
+    #colophon .footermenu2, #colophon .footermenu1 {
+        left: 0%;
+    }
+    #featured-about img{
+        width: 100%;
+    }
+
+    .front .p-5 {
+        padding: 5rem 1rem !important;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+
+    .topheader {
+        display: none !important;
+    }
+
+    #site-navigation {
+        margin: 0;
+    }
+
+    #masthead {
+        position: relative;
+    }
+
+    #featured-slider .wrapper {
+        top: 15%;
+    }
+
+    #featured-slider .entry-header h3 {
+        padding: 0;
+        font-size: calc(1.3rem + .6vw);
+    }
+
+    #featured-slider .entry-header {
+        padding: 0px;
+    }
+
+    #featured-slider .slick-dots li {
+        width: 13px;
+        height: 13px;
+    }
+
+    #featured-slider .entry-title {
+        font-size: 50px;
+        letter-spacing: normal;
+        font-weight: 400;
+        color: #fff;
+        margin: 20px 0px;
+    }
+
+    #featured-slider .read-more .btn {
+        padding: 6px 10px;
+    }
+
+    #featured-slider .slick-dots {
+        bottom: 0rem;
+    }
+
+    .featured-whatweoffer .head-title:before {
+        margin-left: -65%;
+    }
+
+    .featured-whatweoffer .head-title:after {
+        margin-left: 65%;
+    }
+
+    .featured-whatweoffer .head-subtitle {
+        text-align: center;
+    }
+
+    .gap-20 {
+        gap: 1rem;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+    #colophon .footerbox:first-child .hentry:not(:first-child) {
+        margin: 0 0 0 0%;
+    }
+
+    /*---------- ## Front Page Start ## -------- */
+    .site-main .banner-head {
+        height: 25vh;
+    }
+
+    .site-main .banner-head .center-div {
+        position: relative;
+        text-align: center;
+        top: 44%;
+    }
+
+    .mainrow .box {
+        padding: 0;
+    }
+
+    /*---------- ## Front Page End ## -------- */
+
+    /*---------- ## Page Start ## -------- */
+    .page .entry-header .entry-title {
+        padding: 30% 0 30% 20%;
+    }
+
+    /*---------- ## Page End ## -------- */
+
+    /*---------- ## Single Page Start ## -------- */
+    .singlepage img {
+        margin-left: 0px;
+    }
+
+    .singlepage .entry-header {
+        padding-top: 0 !important;
+    }
+
+    .singlepage .categories {
+        left: 8px;
+    }
+
+    nav.navigation.pagination {
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .pagination a,
+    .pagination span {
+        padding: 8px 16px;
+    }
+
+    .main-navigation ul li:hover>ul,
+    .main-navigation ul li.focus>ul {
+        left: 1rem;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: relative;
+        right: -30px;
+        right: 0px;
+    }
+
+    .sitenave {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*---------- ## Single Page End ## -------- */
+
+}
+
+@media (min-width:320px) and (max-width:360px){
+    #featured-slider .entry-container {
+        margin-top: 0px;
+    }
+    .nav-container {        
+        transform: skewX(0deg);       
+        width: 100%;       
+    }
+    .nav-container .header-nav {
+        transform: skewX(0deg);
+        text-align: center;
+    }
+    #featured-about .youtube {        
+        display: none;        
+    }
+    #featured-about .title-section h1 {
+        font-size: 24px !important;
+        line-height: 20px;
+    }
+    #featured-about {       
+        padding-top: 2em;        
+    }
+}
+
+@media (min-width:710px) and (max-width:860px) {
+    .navbar {
+        position: relative !important;
+        top: 0 !important;
+        margin-bottom: 0;
+        padding: 10px;
+        display: block;
+    }
+
+    .nav-container {        
+        transform: skewX(0deg);       
+        width: 100%;    
+        padding: 0px;   
+    }
+    .nav-container .header-nav {
+        transform: skewX(0deg);
+        text-align: center;
+    }
+    #featured-about .title-section h1 {
+        font-size: 42px !important;        
+    }
+    #featured-about .aboutredbox {
+        padding: 10px 0px 0px 11px;
+    }
+    #featured-about .aboutredbox h2 {       
+        font-size: 30px;        
+    }
+
+    .main-navigation ul {
+        display: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    .site-branding,
+    #site-navigation {
+        padding: 0;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .menu-menu-1-container {
+        float: none;
+    }
+    .main-navigation ul li:hover>ul,
+    .main-navigation ul li.focus>ul {
+        left: 40%;
+    }
+    #featured-slider .leftcontentbox {
+        top: -38%;
+    }
+    #featured-about .about-img-box .about-title-right {
+        width: max-content;        
+        top: 26%;
+        left: 54%;
+        
+    }
+    
+
+    /*-----------## Slider Section Start ## -------- */
+    .topheader .quote p {
+        font-size: 14px;
+    }
+
+    .contact-info .me-5 {
+        margin-right: 1.5rem !important;
+    }
+
+    #featured-slider .wrapper {
+        top: 45%;
+    }
+
+    #featured-slider .entry-container p {
+        font-size: 1.5rem;
+    }
+
+    #featured-slider .entry-header {
+        padding: 0px;
+    }
+
+    #featured-slider .slick-dots {
+        bottom: 1rem;
+    }
+
+    .front .mainrow .box {
+        padding: 0px 2rem 0 0;
+    }
+
+    .front .p-5 {
+        padding: 2rem !important;
+    }
+
+    #featured-slider .read-more .btn,
+    #featured-slider .contact-us .btn {
+        padding: 7px 20px;
+    }
+
+    #colophon .menu-footer ul li {
+        line-height: 2rem;
+    }
+
+    #featured-slider .entry-header h3 {
+        font-size: 30px;
+        padding: 0px 10px;
+    }
+
+    .featured-whatweoffer .head-title:before {
+        margin-left: -32%;
+        text-align: right;
+    }
+
+    .featured-whatweoffer .head-title:after {
+        margin-left: 32%;
+
+    }
+
+    .entry-title,
+    .section-title {
+        margin: 0;
+    }
+
+    .gap-20 {
+        gap: 3rem;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+    /*---------- ## Slider Section End ## -------- */
+
+    /*---------- ## Front Page Start ## -------- */
+    .site-main .banner-head {
+        height: 30vh;
+    }
+
+    .site-main .banner-head .center-div {
+        position: relative;
+        text-align: center;
+        top: 70%;
+    }
+
+    /*---------- ## Front Page End ## -------- */
+
+    /*---------- ## Page Start ## -------- */
+    .page .entry-header .entry-title {
+        padding: 30% 0 10% 40%;
+    }
+
+    /*---------- ## Page End ## -------- */
+
+    /*---------- ## Single Page Start ## -------- */
+    .singlepage .entry-content {
+        padding-right: 20px;
+    }
+
+    .widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__button {
+        padding: 10px 12px;
+    }
+
+    .sidebar-div label,
+    .sidebar-div .wp-block-heading,
+    .single_sidebar label,
+    .single_sidebar .wp-block-heading {
+        font-size: 18px;
+    }
+
+    nav.navigation.pagination {
+        padding: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: relative;
+        right: -30px;
+        right: 0px;
+    }
+
+    .sitenave {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/*/////////////////// media query css for mobile end ////////////////*/
+
+/* ====================== media query css for landscape mobile start ============================== */
+@media (min-width:870px) and (max-width:950px) {
+    .navbar {
+        position: relative !important;
+        top: 0 !important;
+        margin-bottom: 0;
+        padding: 10px;
+        display: block;
+    }
+
+    #featured-about .title-section h1 {
+        font-size: 50px !important;        
+    }
+    .nav-container {        
+        transform: skewX(0deg);       
+        width: 100%;    
+        padding: 0px;   
+    }
+    .nav-container .header-nav {
+        transform: skewX(0deg);
+        text-align: center;
+    }
+    #featured-about .aboutredbox {
+        padding: 10px 0px 0px 11px;
+    }
+    #featured-about .aboutredbox h2 {       
+        font-size: 30px;        
+    }
+
+    .main-navigation ul {
+        display: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    .site-branding,
+    #site-navigation {
+        padding: 0;
+    }
+
+    .menu-menu-1-container {
+        float: none;
+    }
+    .main-navigation ul li:hover>ul,
+    .main-navigation ul li.focus>ul {
+        left: 40%;
+    }
+    #featured-about .about-img-box .about-title-right {
+        width: max-content;        
+        top: 28%;
+        left: 54%;
+    }
+
+    /*-----------## Slider Section Start ## -------- */
+    .topheader .quote p {
+        font-size: 14px;
+    }
+
+    .contact-info .me-5 {
+        margin-right: 1.5rem !important;
+    }
+
+    #featured-slider .wrapper {
+        top: 45%;
+    }
+
+    #featured-slider .entry-container p {
+        font-size: 1.5rem;
+    }
+
+    #featured-slider .entry-container h4 {
+        font-size: 1rem;
+    }
+
+    #featured-slider .entry-header {
+        padding: 0px;
+    }
+
+    #featured-slider .slick-dots {
+        bottom: 1rem;
+    }
+
+    .front .mainrow .box {
+        padding: 0px 2rem 0 0;
+    }
+
+    .front .p-5 {
+        padding: 2rem !important;
+    }
+
+    #featured-slider .read-more .btn,
+    #featured-slider .contact-us .btn {
+        padding: 7px 20px;
+    }
+
+    #colophon .menu-footer ul li {
+        line-height: 2rem;
+    }
+
+    #featured-slider .entry-header h3 {
+        font-size: 30px;
+        padding: 0px 10px;
+    }
+
+    .featured-whatweoffer .head-title:before {
+        margin-left: -30%;
+        text-align: right;
+    }
+
+    .featured-whatweoffer .head-title:after {
+        margin-left: 30%;
+
+    }
+
+    .entry-title,
+    .section-title {
+        margin: 0;
+    }
+
+    .gap-20 {
+        gap: 3rem;
+    }
+   
+    /*---------- ## Slider Section End ## -------- */
+
+    /*---------- ## Front Page Start ## -------- */
+    .site-main .banner-head {
+        height: 35vh;
+    }
+
+    /*---------- ## Front Page End ## -------- */
+
+    /*---------- ## Page Start ## -------- */
+    .page .entry-header .entry-title {
+        padding: 30% 0 10% 40%;
+    }
+
+    /*---------- ## Page End ## -------- */
+
+    /*---------- ## Single Page Start ## -------- */
+    .singlepage .entry-content {
+        padding-right: 20px;
+    }
+
+    .widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__button {
+        padding: 10px 12px;
+    }
+
+    .sidebar-div label,
+    .sidebar-div .wp-block-heading,
+    .single_sidebar label,
+    .single_sidebar .wp-block-heading {
+        font-size: 18px;
+    }
+
+    nav.navigation.pagination {
+        padding: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: relative;
+        right: -30px;
+        right: 0px;
+    }
+
+    .sitenave {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*---------- ## Single Page End ## -------- */
+}
+
+/*/////////////////// media query css for tab end ////////////////*/
+
+/*/////////////////// media query css for laptop start ////////////////*/
+
+@media (min-width:1023px) and (max-width:1024px) {
+
+    /*-----------## Slider Section Start ## -------- */
+    #featured-slider .entry-header h3 {
+        padding: 10px 3rem;
+    }
+
+    #featured-slider .slick-dots {
+        bottom: 1.5rem;
+    }
+    #featured-slider .entry-container {
+        margin-top: 22px;
+    }
+    #featured-slider .wrapper {
+        top: 21%;
+    }
+    #featured-about .aboutredbox h2 {       
+        font-size: 46px;        
+    }
+
+    /*---------- ## Page Start ## -------- */
+    .page .entry-header .entry-title {
+        padding: 22% 0 0% 45%;
+    }
+
+    /*---------- ## Page End ## -------- */
+
+    /*---------- ## Single Page Start ## -------- */
+    .singlepage .entry-content {
+        padding-right: 50px;
+    }
+
+    /*---------- ## Single Page End ## -------- */
+    .site-main .banner-head {
+        height: 70vh;
+    }
+}
+@media (min-width:1024px) and (max-width:1024px) {
+    #featured-about .about-img-box .about-title-right {        
+        top: 41%;
+        left: 17%;        
+        font-size: 120px !important;        
+    }
+    #featured-about .aboutredbox h2 {       
+        font-size: 46px;        
+    }
+    #featured-about .title-section h1 {
+        font-size: 60px !important;        
+    }
+}
+
+@media (min-width:1028px){
+    #featured-about .about-img-box .about-title-right {        
+        left: 20%;
+    }
+}
+@media (min-width:1440px) and (max-width:1940px){
+    #featured-about .about-img-box .about-title-right {        
+        left: 23%;
+    }
+}
+
+/*/////////////////// media query css for laptop end ////////////////*/

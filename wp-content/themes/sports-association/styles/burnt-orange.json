@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Burnt Orange",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+			{
+				"slug": "background",
+				"color": "#bf4d02",
+				"name": "Background"
+			},
+			{
+				"slug": "tertiary",
+				"color": "#5d3c14",
+				"name": "Tertiary"
+			},
+			{
+				"slug": "quaternary",
+				"color": "#4c190080",
+				"name": "Quaternary"
+			},
+			{
+				"slug": "form-bg",
+				"color": "#F9F5F0",
+				"name": "Form Bg"
+			},
+			{
+				"slug": "primary",
+				"color": "#0A0B0F",
+				"name": "Primary"
+			},
+			{
+				"slug": "foreground",
+				"color": "#ffffff",
+				"name": "Foreground"
+			},
+			{
+				"slug": "secondary",
+				"color": "#383838",
+				"name": "Secondary"
+			}
+		]
+    }
+  }
+}

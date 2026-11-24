@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Bright Red",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+			{
+				"slug": "background",
+				"color": "#ff142c",
+				"name": "Background"
+			},
+			{
+				"slug": "tertiary",
+				"color": "#722626",
+				"name": "Tertiary"
+			},
+			{
+				"slug": "quaternary",
+				"color": "#4c000080",
+				"name": "Quaternary"
+			},
+			{
+				"slug": "form-bg",
+				"color": "#F9F5F0",
+				"name": "Form Bg"
+			},
+			{
+				"slug": "primary",
+				"color": "#0A0B0F",
+				"name": "Primary"
+			},
+			{
+				"slug": "foreground",
+				"color": "#ffffff",
+				"name": "Foreground"
+			},
+			{
+				"slug": "secondary",
+				"color": "#383838",
+				"name": "Secondary"
+			}
+		]
+    }
+  }
+}

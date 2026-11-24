@@ -1,0 +1,764 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-03-31 12:25+0530\n"
+"PO-Revision-Date: 2025-03-31 12:25+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_html_e;esc_att;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:31
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp "
+"or incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: footer.php:35
+msgid "fa-facebook"
+msgstr ""
+
+#: footer.php:37
+msgid "fa-twitter"
+msgstr ""
+
+#: footer.php:39
+msgid "fa-linkedin-in"
+msgstr ""
+
+#: footer.php:41
+msgid "fa-instagram"
+msgstr ""
+
+#: footer.php:49
+msgid "Quick Links"
+msgstr ""
+
+#: footer.php:55
+msgid "Home"
+msgstr ""
+
+#: footer.php:59
+msgid "About Us"
+msgstr ""
+
+#: footer.php:63
+msgid "Services"
+msgstr ""
+
+#: footer.php:67
+msgid "Blog"
+msgstr ""
+
+#: footer.php:71
+msgid "Contact"
+msgstr ""
+
+#: footer.php:83
+msgid "Gallery Widget"
+msgstr ""
+
+#: footer.php:90
+msgid "About Club"
+msgstr ""
+
+#: footer.php:94
+msgid "Media"
+msgstr ""
+
+#: footer.php:98
+msgid "Donation"
+msgstr ""
+
+#: footer.php:102
+msgid "Pages"
+msgstr ""
+
+#: footer.php:106
+msgid "Terms Of Policies"
+msgstr ""
+
+#: footer.php:117
+msgid "SUBSCRIBE & GET THE UPDATED NEWS"
+msgstr ""
+
+#: footer.php:122
+msgid "SUBSCRIBE"
+msgstr ""
+
+#: footer.php:132
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:135
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:141
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: front-page.php:14
+msgid "Posts"
+msgstr ""
+
+#: front-page.php:46
+msgid "2"
+msgstr ""
+
+#: front-page.php:47
+msgid "« Previous"
+msgstr ""
+
+#: front-page.php:48
+msgid "Next »"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:126
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:128
+msgid "Add widgets here."
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:88
+msgid "fa-phone-volume"
+msgstr ""
+
+#: header.php:89
+msgid "+012 3456 789"
+msgstr ""
+
+#: inc/customizer/default.php:28 inc/customizer/default.php:63
+#: inc/customizer/default.php:76 template-parts/maincontent.php:52
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/default.php:48
+msgid "WHERE"
+msgstr ""
+
+#: inc/customizer/default.php:49
+msgid "CHAMPIONS ARE MADE,"
+msgstr ""
+
+#: inc/customizer/default.php:50
+msgid " ONE PITCH AT A TIME."
+msgstr ""
+
+#: inc/customizer/default.php:51
+msgid "30"
+msgstr ""
+
+#: inc/customizer/default.php:52
+msgid "Years Of Experience"
+msgstr ""
+
+#: inc/customizer/default.php:53
+msgid "Expert Coaching"
+msgstr ""
+
+#: inc/customizer/default.php:54 inc/customizer/default.php:58
+msgid ""
+"There are many variations of passages of injected humour randomised even "
+"slightly believable."
+msgstr ""
+
+#: inc/customizer/default.php:55
+msgid "Competitive Play"
+msgstr ""
+
+#: inc/customizer/default.php:56
+msgid "Professional Coaching"
+msgstr ""
+
+#: inc/customizer/default.php:57
+msgid "Sportsmanship"
+msgstr ""
+
+#: inc/customizer/default.php:59
+msgid "fas fa-star"
+msgstr ""
+
+#: inc/customizer/default.php:60
+msgid "fas fa-user-graduate"
+msgstr ""
+
+#: inc/customizer/default.php:61
+msgid "fas fa-person"
+msgstr ""
+
+#: inc/customizer/default.php:62
+msgid "fas fa-user"
+msgstr ""
+
+#: inc/customizer/default.php:64
+msgid "fas fa-arrow-up"
+msgstr ""
+
+#: inc/customizer/default.php:66
+msgid "Our History"
+msgstr ""
+
+#: inc/customizer/default.php:67 inc/customizer/default.php:68
+#: inc/customizer/default.php:69
+msgid ""
+"Sed posuere libero ac nisi maximus fermentum. Duis imperdiet venenatis leo "
+"sit amet congue. Suspendisse ullamcorper nisl quis augue dapibus mattis. "
+"Donec tincidunt, nulla volutpat placerat ultricies, orci nisi facilisis "
+"velit, id pretium arcu nibh mattis augue."
+msgstr ""
+
+#: inc/customizer/default.php:72
+msgid "Our Mission"
+msgstr ""
+
+#: inc/customizer/default.php:73
+msgid "Our Vision"
+msgstr ""
+
+#: inc/customizer/home-section.php:13
+msgid "Home Page Section"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:14
+msgid "About Info"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:32
+#: inc/customizer/home-sections/featured-features.php:31
+#: inc/customizer/home-sections/featured-slider.php:36
+msgid "Enable Section"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:44
+#: inc/customizer/home-sections/featured-features.php:43
+msgid "Section BG Image"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:56
+#: inc/customizer/home-sections/featured-features.php:57
+msgid "BG Opacity"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:57
+#: inc/customizer/home-sections/featured-features.php:58
+msgid "It Will Only apply on Image"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:75
+#: inc/customizer/home-sections/featured-features.php:76
+#: inc/customizer/home-sections/featured-slider.php:52
+msgid "Box Onload Transition Effects"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:77
+#: inc/customizer/home-sections/featured-features.php:78
+#: inc/customizer/home-sections/featured-slider.php:54
+msgid "Bounce In Left"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:78
+#: inc/customizer/home-sections/featured-features.php:79
+#: inc/customizer/home-sections/featured-slider.php:55
+msgid "Bounce In Right"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:79
+#: inc/customizer/home-sections/featured-features.php:80
+#: inc/customizer/home-sections/featured-slider.php:56
+msgid "Bounce In Up"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:80
+#: inc/customizer/home-sections/featured-features.php:81
+#: inc/customizer/home-sections/featured-slider.php:57
+msgid "Bounce In Down"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:81
+#: inc/customizer/home-sections/featured-features.php:82
+#: inc/customizer/home-sections/featured-slider.php:58
+msgid "Zoom In"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:82
+#: inc/customizer/home-sections/featured-features.php:83
+#: inc/customizer/home-sections/featured-slider.php:59
+msgid "Zoom Out"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:83
+#: inc/customizer/home-sections/featured-features.php:84
+#: inc/customizer/home-sections/featured-slider.php:60
+msgid "Fade In Down"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:84
+#: inc/customizer/home-sections/featured-features.php:85
+#: inc/customizer/home-sections/featured-slider.php:61
+msgid "Fade In Up"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:85
+#: inc/customizer/home-sections/featured-features.php:86
+#: inc/customizer/home-sections/featured-slider.php:62
+msgid "Fade In Left"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:86
+#: inc/customizer/home-sections/featured-features.php:87
+#: inc/customizer/home-sections/featured-slider.php:63
+msgid "Fade In Right"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:87
+#: inc/customizer/home-sections/featured-features.php:88
+#: inc/customizer/home-sections/featured-slider.php:64
+msgid "Flip Up"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:96
+msgid "You Tube Image"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:112
+msgid "Sub Heading First Word"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:130
+#: inc/customizer/home-sections/featured-about.php:148
+msgid "Sub Heading"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:161
+msgid "About Image 1"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:162
+msgid "Size 350px x 400x"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:171
+msgid "About Image 2"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:172
+msgid "Size 250px x 350x"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:189
+msgid "Number"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:206
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:224
+msgid "Info Title 1"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:241
+msgid "Info Text 1"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:258
+msgid "Info Title 2"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:275
+msgid "Info Text 2"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:292
+msgid "Info Title 3"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:309
+msgid "Info Text 3"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:322
+#: inc/customizer/home-sections/featured-about.php:331
+#: inc/customizer/home-sections/featured-about.php:335
+msgid "theme_options[featured_iconabout]"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:333
+msgid "Plan Icon"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:341
+#: inc/customizer/home-sections/featured-about.php:349
+#: inc/customizer/home-sections/featured-about.php:353
+msgid "theme_options[featured_about_section_bxtitle]"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:351
+msgid "Plan Title"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-about.php:370
+#: inc/customizer/theme-options/customize-footer.php:282
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:14
+msgid "Feature Info"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:89
+msgid "none"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:104
+msgid "Number Of Feature To Show"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:123
+msgid "Featured Icon 1"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:140
+msgid "Featured Text 1"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:158
+msgid "Sub Featured Text 1"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:171
+msgid "Featured Icon 2"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:188
+msgid "Featured Text 2"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:206
+msgid "Sub Featured Text 2"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:219
+msgid "Featured Icon 3"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:236
+msgid "Featured Text 3"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-features.php:254
+msgid "Sub Featured Text 3"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:14
+msgid "Slider Info"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:38
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:39
+msgid "No"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:77
+msgid "Number Of Slider To Show"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:100
+msgid "Select A Post Page"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:110
+msgid "Get In Touch"
+msgstr ""
+
+#: inc/customizer/home-sections/featured-slider.php:119
+msgid "Get In Touch Button Text"
+msgstr ""
+
+#: inc/customizer/sanitize-callback.php:291
+#: inc/customizer/sanitize-callback.php:304
+#: inc/customizer/sanitize-callback.php:337
+msgid "--Select--"
+msgstr ""
+
+#: inc/customizer/section-pro.php:13
+msgid "baseball_sports_club Pro"
+msgstr ""
+
+#: inc/customizer/section-pro/customize-pro.php:9
+msgid "sectionpro Section"
+msgstr ""
+
+#: inc/customizer/section-pro/customize-pro.php:22
+#: inc/customizer/theme-options/customize-footer.php:22
+msgid "Logo Image"
+msgstr ""
+
+#: inc/customizer/theme-options.php:13
+msgid "Theme Option Section"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:9
+msgid "Footer Section"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:34
+msgid "Paragraph"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:46
+msgid "Facebook Icon"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:58
+msgid "Twitter Icon"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:70
+msgid "Linkedin Icon"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:82
+msgid "Instagram Icon"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:90
+msgid "Footer Menu 1"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:101
+msgid "Title 1"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:114
+msgid "About Submenu 1"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:127
+msgid "About Submenu 2"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:140
+msgid "About Submenu 3"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:153
+msgid "About Submenu 4"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:166
+msgid "About Submenu 5"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:174
+msgid "Footer Menu 2"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:185
+msgid "Title 2"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:198
+msgid "Navigation Submenu 1"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:211
+msgid "Navigation Submenu 2"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:224
+msgid "Navigation Submenu 3"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:237
+msgid "Navigation Submenu 4"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:250
+msgid "Navigation Submenu 5"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:258
+msgid "Footer Menu 3"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-footer.php:269
+msgid "Title 3"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-header.php:10
+msgid "Header Section"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-header.php:22
+msgid "Call Icon"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-header.php:37
+msgid "Phone Icon Color"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-header.php:47
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/theme-options/customize-header.php:62
+msgid "Phone Number Text Color"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:100 template-parts/content-page.php:42
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:22
+msgid "Published on:"
+msgstr ""
+
+#: single.php:24
+msgid "by"
+msgstr ""
+
+#: single.php:38
+msgid "Cat:"
+msgstr ""
+
+#: single.php:79
+msgid "Previous:"
+msgstr ""
+
+#: single.php:80
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:29 template-parts/content-single.php:20
+#: template-parts/content.php:58
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:31
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/content.php:45
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/section/section-featured-about.php:47
+msgid "WATCH VIDEO * WATCH VIDEO *"
+msgstr ""
+
+#: template-parts/section/section-featured-features.php:29
+msgid "fa-hourglass-start"
+msgstr ""
+
+#: template-parts/section/section-featured-features.php:39
+#: template-parts/section/section-featured-features.php:65
+#: template-parts/section/section-featured-features.php:90
+msgid ""
+"Etiam ornare lorem in bibendum pretium. Ut purus libero, consequat sed "
+"porttitor at, ullamcorper ut velit."
+msgstr ""
+
+#: template-parts/section/section-featured-features.php:55
+msgid "fa-handshake-angle"
+msgstr ""
+
+#: template-parts/section/section-featured-features.php:80
+msgid "fa-dumpster-fire"
+msgstr ""

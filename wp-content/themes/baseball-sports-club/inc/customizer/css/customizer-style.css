@@ -1,0 +1,665 @@
+/**
+* Custom Css for backend 
+*
+* @package baseball-sports-club
+*/
+#baseball_sports_club-img-container li {
+    padding: 3px;
+}
+#baseball_sports_club-img-container .baseball_sports_club-radio-img-selected {
+    border: 3px solid #dd3333;
+}
+
+/**
+* Custom Css for backend 
+*
+* Repeater Text 
+* 
+*/
+.customize-control-repeater-text .repeater-text-fields .set {
+    margin-bottom: 5px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.customize-control-repeater-text .repeater-text-fields input {
+    margin-bottom: 5px!important;
+}
+
+.customize-control-repeater-text .btn-remove-field {
+    color: red;
+    position: absolute;
+    right: -7px;
+    top: 3px;
+}
+
+.customize-control-repeater-text .btn-remove-field span {
+    text-decoration: none;
+}
+
+.customize-control-repeater-text .btn-remove-field:active,
+.customize-control-repeater-text .btn-remove-field:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#customize-control-theme_options-enable_frontpage_content span.customize-inside-control-row {
+    width: 100%;
+}
+
+#customize-control-theme_options-enable_frontpage_content label {
+    width: 52px;
+    position: relative;
+}
+
+input[type="range"] {
+    width: 100%;
+    background-color: #033b62;
+    -webkit-appearance: none;
+    height: 3px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.customize-control-radio-image #baseball_sports_club-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.customize-control-title {
+    margin-bottom: 10px;
+}
+
+#icons-list-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3000000;
+    background-color: rgb(0 0 0 / 80%);
+}
+
+#icons-list-wrapper.active {
+    display: block !important;
+}
+
+#icons-list-wrapper .icons-list {
+    background-color: #fff;
+    padding: 30px 30px 0;
+    max-width: 1000px;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 1;
+}
+
+#icons-list-wrapper .icons-list li {
+    width: 89px;
+    height: 89px;
+    line-height: 110px;
+    text-align: center;
+    background: #f0f0f1;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: inset 0 0 15px rgb(0 0 0 / 10%), inset 0 0 0 1px rgb(0 0 0 / 5%);
+}
+
+#icons-list-wrapper .icons-list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#icons-list-wrapper .icons-list li.active {
+    box-shadow: inset 0 0 2px 3px #fff, inset 0 0 0 7px #4f94d4;
+    outline: 2px solid transparent;
+    outline-offset: -6px;
+}
+
+#icons-list-wrapper .icons-list i {
+    font-size: 38px;
+}
+
+#icons-list-wrapper .save-icon,
+#icons-list-wrapper .close-button {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 5px 20px;
+    display: inline-block;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+#icons-list-wrapper .close-button {
+    background: #e91e63;
+    border-color: #e91e63;
+}
+
+#icons-list-wrapper .save-icon:hover,
+#icons-list-wrapper .save-icon:focus {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+#icons-list-wrapper .close-button:hover,
+#icons-list-wrapper .close-button:focus {
+    background: #da0950;
+    border-color: #da0950;
+    color: #fff;
+}
+
+#icons-list-wrapper .action-buttons {
+    position: sticky;
+    bottom: -1px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.customize-control {
+    padding: 15px;    
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+}
+
+.control-section .accordion-section-title, 
+.customize-pane-child .accordion-section-title {
+    padding: 14px 10px 14px 15px;
+}
+
+input[type=color], 
+input[type=date], 
+input[type=datetime-local], 
+input[type=datetime], 
+input[type=email], 
+input[type=month], 
+input[type=number], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=time], 
+input[type=url], 
+input[type=week], 
+select {
+    height: 40px;
+    padding: 15px;
+}
+
+textarea {
+    padding: 15px;
+}
+input[type=checkbox]{
+    
+}
+
+.clearfix:after,
+.clearfix:before{
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.customize-control select{
+    width: 98%;
+}
+
+.total-accordion-section-title{
+    color: #0073aa;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 10px 11px 14px;
+    line-height: 21px;
+    background: #FFF;
+    margin: 0 -12px 0;
+    border-left: 4px solid #0073aa
+}
+
+.customize-control-heading .customize-control-description{
+    margin: 5px 0 0;
+}
+
+.ht-implink{
+  background: #0073aa;
+  padding: 5px 10px;
+  color: #FFF !important;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  line-height: 1.2;
+  box-shadow: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.ht-implink:hover{
+  background: #000;
+}
+
+/**SWITCH CONTROL*/
+.onoffswitch {
+    position: relative;
+    width: 100px;
+    margin-right: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.onoffswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin .3s ease-in 0s;
+    -webkit-transition: margin .3s ease-in 0s;
+    -o-transition: margin .3s ease-in 0s;
+    transition: margin .3s ease-in 0s
+}
+
+.onoffswitch-inner > div {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.onoffswitch-inner .onoffswitch-active {
+    background-color: #f5f4f4;
+    color: #FFF;
+    border: 1px solid #aaaaaa;
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+    background-color: #f5f4f4;
+    color: #FFF;
+    text-align: right;
+    border: 1px solid #aaaaaa;
+}
+
+.onoffswitch-switch {
+    width: 50px;
+    margin: 0;
+    text-align: center;
+    border: 0 solid #999;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.onoffswitch-active .onoffswitch-switch {
+    background: #669927;
+    left: 0;
+    border-radius: 0;
+}
+
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #669927;
+    right: 0;
+    border-radius: 0px;
+    width: 45px;
+}
+.switch-on .onoffswitch-inner {
+    margin-left: 0
+}
+
+/*GALLERY CONTROL*/
+.gallery-screenshot{
+  margin-bottom: 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.gallery-screenshot .screen-thumb{
+  width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 5px;
+  float: left;
+}
+
+.gallery-screenshot .screen-thumb:nth-child(2n+1){
+    clear: both;
+}
+
+.gallery-screenshot .screen-thumb img{ 
+  border: 1px solid #EEE;
+  vertical-align: middle;
+}
+
+#clear-gallery{
+  float: right;
+}
+
+/*CHOSEN*/
+.chosen-container-single .chosen-single {
+    border-radius: 0px;
+    height: 28px;
+    background: #FFF;
+    border-color: #DDDDDD;
+    line-height: 28px;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.06);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.06);
+}
+
+.chosen-container-single .chosen-single div b{
+    background-position: 0px 4px;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 4px;
+}
+
+.chosen-container-multi .chosen-choices li{
+    float: none;
+}
+
+/*FontAwesome Icon Styles*/
+.total-type-icon{
+  overflow: hidden;
+}
+
+.total-selected-icon{
+  background: #F6F6F6;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #EEE;
+  position: relative;
+  margin-right: 45px;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.total-selected-icon .fa{
+  display: block;
+  line-height: 45px;
+}
+
+.total-selected-icon span{
+  position: absolute;
+  background: #F6F6F6;
+  right: -45px;
+  top: -1px;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EEE;
+  font-size: 20px;
+}
+
+.total-icon-list{
+  height: 215px;
+  overflow-y: scroll;
+  font-size: 18px;
+  border: 1px solid #EEE;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 4%;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.total-icon-list li{
+  float: left;
+  margin: 4% 3% 0;
+  height: 40px;
+  width: 16%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #EEE;
+}
+
+.total-icon-list li:hover{
+  background: #333;
+  border: 1px solid #333;
+  color: #FFF;
+}
+
+.total-icon-list li.icon-active{
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #FFF;
+}
+
+.customize-pane-parent .control-section .accordion-section-title:before{
+    font-family: dashicons;
+    content: "\f103";
+    font-size: 17px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+/*Help & Contact Customizer tab*/
+#accordion-section-baseball_sports_club_new .accordion-section-title:before{
+    content: "\f05a" !important;
+    font-family: FontAwesome;
+}
+/*General Setting Customizer tab*/
+#accordion-panel-baseball_sports_club_header_panel1 .accordion-section-title:before{
+    content: "\f013";
+    font-family: FontAwesome;
+}
+/*Home Section Customizer tab*/
+#accordion-panel-baseball_sports_club_premium_home_panel1 .accordion-section-title:before{
+    content: "\f015";
+    font-family: FontAwesome;
+}
+/*Blog page setting Customizer tab*/
+#accordion-section-premium_blog_area .accordion-section-title:before{
+    content: "\f09e";
+    font-family: FontAwesome;
+}
+/*General Configuration Customizer tab*/
+#accordion-panel-baseball_sports_club_general_panel .accordion-section-title:before{
+    content: "\f1b8";
+    font-family: FontAwesome;
+}
+/*Section Sequence Customizer tab*/
+#accordion-section-homepage_section_sequence_change_settings .accordion-section-title:before{
+    content: "\f0c9";
+    font-family: FontAwesome;
+}
+/*Woocommerce Customizer tab*/
+#accordion-panel-woocommerce .accordion-section-title:before{
+    content: "\f291";
+    font-family: FontAwesome;
+}
+/*Theme Document Customizer tab*/
+#accordion-section-baseball_sports_club_prem .accordion-section-title:before{
+    content: "\f044";
+    font-family: FontAwesome;
+}
+
+
+#accordion-panel-total_general_settings_panel .accordion-section-title:before{
+    content: "\f111";
+}
+
+#accordion-panel-total_home_panel .accordion-section-title:before{
+    content: "\f102";
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before{
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-section-custom_css .accordion-section-title:before{
+    content: "\f499";
+}
+.customize-control{
+  margin-bottom: 10px;
+}
+li#customize-control-header_topbgColor2 .wp-picker-container {
+    right: 35px;
+    bottom: 20px;
+}
+
+li#customize-control-header_submenusbgssc2Color span.customize-control-title {
+    display: none;
+}
+li#customize-control-header_submenusbgssc2Color .wp-picker-container {
+    right: 35px;
+    bottom: 20px;
+}
+
+li#customize-control-baseball_sports_club_template_innerpage_bgcolor2 span.customize-control-title {
+    display: none;
+}
+li#customize-control-baseball_sports_club_template_innerpage_bgcolor2 .wp-picker-container {
+    right: 35px;
+    bottom: 20px;
+}
+
+
+
+/*---- Toggle button -----*/
+.toggle-switch-control .customize-control-title {
+    display: inline-block;
+}
+.toggle-switch {
+    position: relative;
+    width: 65px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    float: right;
+    border: 1px solid #52a000;
+}
+.toggle-switch .toggle-switch-checkbox {
+    display: none;
+}
+.toggle-switch .toggle-switch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 25px;
+}
+.toggle-switch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.toggle-switch-inner:before,
+.toggle-switch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 25px;
+    padding: 0;
+    line-height: 1.7;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.toggle-switch-inner:before {
+    content: "ON";
+    padding-left: 8px;
+    background-color: #52a000;
+    color: #fff;
+}
+.toggle-switch-inner:after {
+    content: "OFF";
+    padding-right: 8px;
+    background-color: #fff;
+    color: #52a000;
+    text-align: right;
+}
+.toggle-switch-btn {
+    display: block;
+    width: 22px;
+    background: #52a000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    right: 42px;
+    transition: all 0.3s ease-in 0s;
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+    margin-left: 0;
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-btn {
+    right: 0px;
+    left: auto;
+    background: #fff;
+}
+
+
+li#customize-control-baseball_sports_club_show_time, 
+li#customize-control-baseball_sports_club_show_date, 
+li#customize-control-baseball_sports_club_show_single_post_date, 
+li#customize-control-baseball_sports_club_single_post_time, 
+li#customize-control-baseball_sports_club_show_share_icons {
+}
+li#customize-control-baseball_sports_club_show_time .toggle-switch,
+li#customize-control-baseball_sports_club_show_date .toggle-switch, 
+li#customize-control-baseball_sports_club_show_single_post_date .toggle-switch, 
+li#customize-control-baseball_sports_club_single_post_time .toggle-switch, 
+li#customize-control-baseball_sports_club_show_share_icons .toggle-switch{
+    opacity: 0.5;
+}
+li#customize-control-baseball_sports_club_show_time .toggle-switch-inner:before,
+li#customize-control-baseball_sports_club_show_date .toggle-switch-inner:before, 
+li#customize-control-baseball_sports_club_show_single_post_date .toggle-switch-inner:before, 
+li#customize-control-baseball_sports_club_single_post_time .toggle-switch-inner:before, 
+li#customize-control-baseball_sports_club_show_share_icons .toggle-switch-inner:before {
+    display: none;
+}
+li#customize-control-baseball_sports_club_show_time .toggle-switch-inner,
+li#customize-control-baseball_sports_club_show_date .toggle-switch-inner, 
+li#customize-control-baseball_sports_club_show_single_post_date .toggle-switch-inner, 
+li#customize-control-baseball_sports_club_single_post_time .toggle-switch-inner, 
+li#customize-control-baseball_sports_club_show_share_icons .toggle-switch-inner {
+    margin-left: 0;
+}
+li#customize-control-baseball_sports_club_show_time .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-btn,
+li#customize-control-baseball_sports_club_show_date .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-btn, 
+li#customize-control-baseball_sports_club_show_single_post_date .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-btn, 
+li#customize-control-baseball_sports_club_single_post_time .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-btn, 
+li#customize-control-baseball_sports_club_show_share_icons .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-btn {
+    right: auto;
+    left: 0;
+    background: #52a000;
+}
