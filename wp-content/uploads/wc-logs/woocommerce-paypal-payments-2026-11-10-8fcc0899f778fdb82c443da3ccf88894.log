@@ -1,0 +1,10 @@
+2026-11-10T15:47:14+00:00 DEBUG #4949.WC - [New Request] POST /tienda-2/ @ 15:47:11.694
+2026-11-10T15:47:14+00:00 ERROR #4949.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-10T15:53:38+00:00 DEBUG #2105.WC - [New Request] POST /tienda-2/ @ 15:53:36.560
+2026-11-10T15:53:38+00:00 ERROR #2105.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-10T15:55:18+00:00 DEBUG #2390.WC - [New Request] POST /tienda-2/ @ 15:55:16.465
+2026-11-10T15:55:18+00:00 ERROR #2390.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-10T15:55:47+00:00 DEBUG #6331.WC - [New Request] POST /tienda-2/ @ 15:55:45.302
+2026-11-10T15:55:47+00:00 ERROR #6331.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-10T15:55:53+00:00 DEBUG #3976.WC - [New Request] POST /tienda-2/ @ 15:55:51.638
+2026-11-10T15:55:53+00:00 ERROR #3976.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.

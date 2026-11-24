@@ -1,0 +1,2 @@
+2026-11-24T04:34:34+00:00 INFO Email "new_order" for order #266 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"jhoel","order":266}
+2026-11-24T04:34:36+00:00 INFO Email "customer_on_hold_order" for order #266 sent CONTEXT: {"email_type":"customer_on_hold_order","status":"sent","recipient":"jhoel","order":266}

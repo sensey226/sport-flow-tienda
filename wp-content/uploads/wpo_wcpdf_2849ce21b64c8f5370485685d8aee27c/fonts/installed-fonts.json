@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/OpenSans-Normal",
+        "bold": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/OpenSans-Bold",
+        "italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/OpenSans-Italic",
+        "bold_italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/Segoe-Normal",
+        "bold": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/Segoe-Bold",
+        "italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/Segoe-Italic",
+        "bold_italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/RobotoSlab-Normal",
+        "bold": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/RobotoSlab-Bold",
+        "italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/currencies",
+        "bold": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/currencies",
+        "italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/currencies",
+        "bold_italic": "C:\/laragon\/www\/tienda-2\/wp-content\/uploads\/wpo_wcpdf_2849ce21b64c8f5370485685d8aee27c\/fonts\/currencies"
+    }
+}

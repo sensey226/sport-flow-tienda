@@ -1,0 +1,5 @@
+2026-11-17T14:16:46+00:00 INFO Email "new_order" for order #234 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"jhoel","order":234}
+2026-11-17T14:16:47+00:00 INFO Email "customer_on_hold_order" for order #234 sent CONTEXT: {"email_type":"customer_on_hold_order","status":"sent","recipient":"jhoel","order":234}
+2026-11-17T14:23:29+00:00 INFO Email "admin_payment_gateway_enabled" sent CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"sent","recipient":"jhoel","Edroz_Yape_Gateway":null}
+2026-11-17T14:33:54+00:00 INFO Email "new_order" for order #236 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"jhoel","order":236}
+2026-11-17T14:33:55+00:00 INFO Email "customer_on_hold_order" for order #236 sent CONTEXT: {"email_type":"customer_on_hold_order","status":"sent","recipient":"jhoel","order":236}

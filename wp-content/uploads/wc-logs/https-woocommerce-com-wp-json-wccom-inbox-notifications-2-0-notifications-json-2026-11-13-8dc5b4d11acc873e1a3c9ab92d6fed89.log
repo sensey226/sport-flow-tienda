@@ -1,0 +1,23 @@
+2026-11-13T13:05:07+00:00 ERROR Error getting data feed
+2026-11-13T13:05:07+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => stream_socket_client(): php_network_getaddresses: getaddrinfo for woocommerce.com failed: Host desconocido. 
+stream_socket_client(): Unable to connect to ssl://woocommerce.com:443 (php_network_getaddresses: getaddrinfo for woocommerce.com failed: Host desconocido. )
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
